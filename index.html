@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoXtreme – Premium Cars</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">AutoXtreme</div>
+    <nav class="nav">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#models">Models</a></li>
+        <li><a href="#specs">Specs</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1 class="slide-in">Drive Beyond Limits</h1>
+      <p class="fade-in">Explore the future of automotive excellence with AutoXtreme.</p>
+      <a href="#models" class="cta-btn">View Models</a>
+    </div>
+  </section>
+
+  <!-- Car Models Section -->
+  <section id="models" class="models-section">
+    <h2 class="section-title">Featured Models</h2>
+    <div class="models-grid">
+      <div class="car-card">
+        <img src="images/car1.jpg" alt="Car 1" />
+        <div class="car-info">
+          <h3>Phantom GT</h3>
+          <p>V12 | 700HP | 0-100 in 3.2s</p>
+        </div>
+      </div>
+      <div class="car-card">
+        <img src="images/car2.jpg" alt="Car 2" />
+        <div class="car-info">
+          <h3>Nova XR</h3>
+          <p>Electric | 480KM Range | AWD</p>
+        </div>
+      </div>
+      <div class="car-card">
+        <img src="images/car3.jpg" alt="Car 3" />
+        <div class="car-info">
+          <h3>Stealth V8</h3>
+          <p>V8 | Turbocharged | Track-Ready</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specifications Section -->
+  <section id="specs" class="specs-section">
+    <h2 class="section-title">Specifications</h2>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="phantom">Phantom GT</button>
+      <button class="tab-btn" data-tab="nova">Nova XR</button>
+      <button class="tab-btn" data-tab="stealth">Stealth V8</button>
+    </div>
+    <div class="tab-content active" id="phantom">
+      <ul>
+        <li>Engine: 6.6L V12</li>
+        <li>Horsepower: 700HP</li>
+        <li>0-100 km/h: 3.2s</li>
+        <li>Top Speed: 340 km/h</li>
+      </ul>
+    </div>
+    <div class="tab-content" id="nova">
+      <ul>
+        <li>Motor: Dual Electric</li>
+        <li>Range: 480KM</li>
+        <li>0-100 km/h: 4.5s</li>
+        <li>Top Speed: 240 km/h</li>
+      </ul>
+    </div>
+    <div class="tab-content" id="stealth">
+      <ul>
+        <li>Engine: 5.0L V8</li>
+        <li>Turbo: Twin Turbo</li>
+        <li>0-100 km/h: 3.8s</li>
+        <li>Top Speed: 310 km/h</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section">
+    <h2 class="section-title">What Drivers Say</h2>
+    <div class="carousel">
+      <div class="testimonial active">
+        <p>"The Phantom GT is an absolute beast. I feel unstoppable on the road."</p>
+        <span>- Alex R.</span>
+      </div>
+      <div class="testimonial">
+        <p>"Nova XR changed how I see electric cars. Smooth, silent, and powerful."</p>
+        <span>- Mira K.</span>
+      </div>
+      <div class="testimonial">
+        <p>"Stealth V8 is raw power. It roars like no other — pure adrenaline!"</p>
+        <span>- Daniel M.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2 class="section-title">Get In Touch</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AutoXtreme. All rights reserved.</p>
+  </footer>
+</body>
+</html>
